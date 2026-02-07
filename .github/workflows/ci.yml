@@ -2,8 +2,9 @@ name: Basic CI
 
 on:
   push:
-   branches: [ main ]
-jobs:
+    branches:
+      - "*"
+jobs: 
   build:
     runs-on: ubuntu-latest
     steps:
